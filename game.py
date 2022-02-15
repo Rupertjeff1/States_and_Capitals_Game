@@ -4,6 +4,7 @@ playing = input("Do you want to play? ")
 if playing.lower() != "yes":
     quit()
 print("Okay, lets play!")
+score = 0
 
 answer = input("What is the Capital City of Ohio?")
 if answer.lower() == "Columbus":
