@@ -1,4 +1,8 @@
-print("Hello, welcom to my game. ")
+print("Hello, welcome to my game. ")
 
-playing = input)"Do you want to play? "
-
+playing = input("Do you want to play? ")
+    if playing != "yes"
+        quit()
+    elif playing == "yes"
+        print("Great! Lets Play")
+    
