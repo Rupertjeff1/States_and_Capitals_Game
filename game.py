@@ -1,8 +1,14 @@
 print("Hello, welcome to my game. ")
 
 playing = input("Do you want to play? ")
-    if playing != "yes"
+    if playing != "yes":
         quit()
-    elif playing == "yes"
-        print("Great! Lets Play")
+    print("Okay, great! Lets play")
+
+answer = input("QWhat is the Capital City of Ohio?")
+if answer == "Columbus":
+    print("Correct!")
+else: 
+    print("Sorry, that's not correct.")
+    
     
