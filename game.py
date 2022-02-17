@@ -1,14 +1,14 @@
 import time
-print("Hello, welcome to my game. ")
+
+print("Hello, welcome to my game. The objective of this game is I will give you either State or Capital. If I give you a State you must guess its Capital City. \
+If I give you a Capital, you must then list its State. ")
+time.sleep(2)
 
 playing = input("Do you want to play States and Capitals? ")
 if playing.lower() != "yes":
     quit()
 print("Okay, lets play!")
-
 time.sleep(1)
-print("The objective of this game is I will give you either State or Capital. If I give you a State you must guess its Capital City. \
-If I give you a Capital, you must then its State.")
 score = 0
 
 answer = input("What is the Capital City of Ohio? ")
@@ -26,10 +26,59 @@ else:
     print("Sorry, that's not correct.")
 
 answer = input("What is the Capital of Florida? ")
-if answer.lower() == "tallahasee":
+if answer.lower() == "tallahassee":
     print("Correct!")
     score += 1
 else: 
     print("Sorry, that's not correct.")
 
-print("You got " + str(score) + " questions correct!")
+answer = input("What States Capital is Denver? ")
+if answer.lower() == "colorado":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+answer = input("What States Capital is Juneau? ")
+if answer.lower() == "alaska":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+answer = input("What is the Capital of California? ")
+if answer.lower() == "sacramento":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+answer = input("What is the Capital of Mississippi? ")
+if answer.lower() == "jackson":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+answer = input("What States Capital is Lansing? ")
+if answer.lower() == "michigan":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+answer = input("What is the Capital of Kansas? ")
+if answer.lower() == "topeka":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+answer = input("What is the Capital of Georgia? ")
+if answer.lower() == "atlanta":
+    print("Correct!")
+    score += 1
+else: 
+    print("Sorry, that's not correct.")
+
+print("You got " + str(score) + " of 10 questions correct!")
